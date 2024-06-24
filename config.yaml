@@ -1,0 +1,16 @@
+GENERAL:
+  MODE: DEBUG # DEBUG or PROD
+DATA:
+  RAW_DATA_PATH: 'data/raw'
+  PROCESSED_DATA_PATH: 'data/processed'
+  DATASET_URL: https://raw.githubusercontent.com/virgilus/data/main/countries_dirty.csv
+  DATASET_RAW_NAME: countries_raw.csv
+  DATASET_DTYPES:
+    country: string
+    region: category
+    population: int32
+    area (km²): int32
+    coastline (coast/area ratio): float32
+    net migration: float32
+  CLEAN_DATASET_FILENAME: countries_clean.csv
+  PROCESSED_DATASET_FILENAME: countries_processed.csv

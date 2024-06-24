@@ -1,0 +1,12 @@
+name: streamlit_example
+channels:
+  - defaults
+dependencies:
+  - python=3.12.4
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scikit-learn=1.4.2
+  - pip=24.0
+  - PyYAML=6.0.1
+  - pip:
+      - streamlit=1.36.0
